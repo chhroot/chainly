@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gilroy: ['Gilroy', 'sans'], // Use 'Gilroy' as the font family name
+      },
+    },
   },
   plugins: [],
 }
